@@ -1,0 +1,32 @@
+[project]
+name = "cs-answer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chardet>=5.2.0",
+    "chromadb>=1.2.2",
+    "colorama>=0.4.6",
+    "comtypes>=1.4.13",
+    "dashscope>=1.24.8",
+    "docx>=0.2.4",
+    "langchain>=1.0.2",
+    "langchain-community>=0.4.1",
+    "openai",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "pdfplumber>=0.11.7",
+    "pillow>=12.0.0",
+    "psutil>=7.1.2",
+    "pymupdf>=1.26.5",
+    "pyperclip>=1.11.0",
+    "python-docx>=1.2.0",
+    "pywin32>=311",
+    "tenacity>=9.1.2",
+    "tiktoken>=0.12.0",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
